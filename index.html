@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>To do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>to do list</h1>
+      <div class="inpt-box">
+        <p class="alert-box">Please fill-up your task</p>
+        <input
+          type="text"
+          class="task-text"
+          placeholder="write your task..."
+          autofocus
+        />
+        <input type="button" class="add-task" value="Add items" />
+      </div>
+      <ul class="list-box">
+        <li>
+          <p>demo items</p>
+          <input class="b1" type="image" src="img/checked.png" />
+          <input class="b2" type="image" src="img/edit.png" />
+          <input class="b3" type="image" src="img/delete.png" />
+        </li>
+        <li>
+          <p>demo items</p>
+          <input class="b1" type="image" src="img/checked.png" />
+          <input class="b2" type="image" src="img/edit.png" />
+          <input class="b3" type="image" src="img/delete.png" />
+        </li>
+      </ul>
+      <button class="clear-btn">Clear items</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
